@@ -1,0 +1,135 @@
+body {
+  margin: 0px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.header {
+  background: #131415;
+}
+.container {
+  margin: 0 auto;
+  width: 1060px;
+  position: relative;
+  height: 77px;
+}
+.header__logo {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  text-align: left;
+}
+.logo {
+  font-family: GoraFree, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #f89513;
+  text-transform: uppercase;
+}
+.header__nav {
+  position: absolute;
+  top: 38%;
+  left: 33%;
+  color: #fff;
+}
+.nav {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.nav__item {
+  display: inline-block;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+.nav__item:hover {
+  color: #f89513;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+.nav__item--active {
+  color: #f89513;
+}
+.nav__item--active .nav__link--icon-main:before {
+  background-image: url(./img/main_icon-hover.png);
+}
+.nav__item--active .nav__link--icon-feed:before {
+  background-image: url(./img/feed_icon-hover.png);
+}
+.nav__item--active .nav__link--icon-services:before {
+  background-image: url(./img/service_icon-hover.png);
+}
+.nav__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  margin-right: 18px;
+  background: center /contain no-repeat;
+}
+.nav__link--icon-main::before {
+  background-image: url(./img/main_icon.png);
+}
+.nav__link--icon-feed::before {
+  background-image: url(./img/feed_icon.png);
+}
+.nav__link--icon-services::before {
+  background-image: url(./img/service_icon.png);
+}
+.nav__link--icon-main:hover:before {
+  background-image: url(./img/main_icon-hover.png);
+}
+.nav__link--icon-feed:hover:before {
+  background-image: url(./img/feed_icon-hover.png);
+}
+.nav__link--icon-services:hover:before {
+  background-image: url(./img/service_icon-hover.png);
+}
+.header__contacts {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  text-align: right;
+}
+.contacts__phone {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #fff;
+  text-align: right;
+}
+.contacts__hours {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #f89513;
+  opacity: .7;
+  text-decoration: underline;
+}
+.nav__item--active .nav__item {
+  color: #f89513;
+}
