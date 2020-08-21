@@ -71,6 +71,7 @@ ul li {
   display: inline-block;
   margin-right: 23px;
   vertical-align: middle;
+  transition: .6s;
 }
 .nav__item:hover {
   color: #f89513;
@@ -98,6 +99,7 @@ ul li {
   height: 18px;
   margin-right: 18px;
   background: center /contain no-repeat;
+  transition: .6s;
 }
 .nav__link--icon-main::before {
   background-image: url(./img/main_icon.png);
