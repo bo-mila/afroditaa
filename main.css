@@ -332,15 +332,16 @@ ul li {
   font-weight: 400;
   margin: 0;
 }
-.news-all__separator {
+.news-all__item::before {
+  content: "";
   display: block;
   width: 88%;
   height: 1px;
   background-color: #f5f5f5;
   margin: 0 auto;
-  margin-bottom: 24px;
+  margin-bottom: 29px;
 }
-.news-all__item:first-child .news-all__separator {
+.news-all__item:first-child::before {
   display: none;
 }
 .news__news-top {
