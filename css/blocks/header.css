@@ -1,0 +1,26 @@
+.header {
+  background: #131415;
+  margin-bottom: 79px;
+}
+
+.header__container {
+  position: relative;
+  height: 77px;
+}
+.header__logo {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  text-align: left;
+}
+.header__nav {
+  position: absolute;
+  top: 38%;
+  left: 34%;
+  color: #fff;
+}
+.header__contacts {
+  position: absolute;
+  top: 20%;
+  right: 0;
+}

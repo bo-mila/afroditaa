@@ -1,0 +1,17 @@
+.withlove {
+  display: inline-block;
+  text-align: left;
+  width: 23%;
+  padding: 12px 0;
+}
+.withlove p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+}
+.withlove a {
+  font-weight: bold;
+}

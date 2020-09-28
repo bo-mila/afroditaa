@@ -1,0 +1,27 @@
+.pagination {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #27273e;
+}
+.pagination__display {
+  display: inline-block;
+  font-weight: 300;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.pagination__nav {
+  display: inline-block;
+}
+.pagination__prev {
+  display: inline-block;
+  font-weight: 600;
+  opacity: .6;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.pagination__next {
+  display: inline-block;
+  font-weight: 600;
+}

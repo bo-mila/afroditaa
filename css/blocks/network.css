@@ -1,0 +1,34 @@
+.network h5 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+.network__list {
+  display: block;
+  text-align: left;
+}
+.network__item:hover {
+  background-color: #f89513;
+}
+.network__item {
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: .5s;
+}
+.network__item:last-child {
+  margin-right: 0;
+}
+.network__pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
