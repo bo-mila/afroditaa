@@ -5,22 +5,17 @@
 
 .header__container {
   position: relative;
-  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 17px;
 }
 .header__logo {
-  position: absolute;
-  top: 35%;
-  left: 0;
-  text-align: left;
+  
 }
 .header__nav {
-  position: absolute;
-  top: 38%;
-  left: 34%;
   color: #fff;
 }
 .header__contacts {
-  position: absolute;
-  top: 20%;
-  right: 0;
 }
