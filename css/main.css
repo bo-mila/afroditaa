@@ -4,12 +4,14 @@
 @import url('./blocks/logo.css');
 @import url('./blocks/nav.css');
 @import url('./blocks/contacts.css');
-@import url('./blocks/page-content.css');
+@import url('./blocks/main-content.css');
 @import url('./blocks/slogan.css');
 @import url('./blocks/features.css');
 @import url('./blocks/feature.css');
 @import url('./blocks/news.css');
 @import url('./blocks/news-all.css');
+@import url('./blocks/new-all.css');
+@import url('./blocks/img-for-new-all.css');
 @import url('./blocks/news-top.css');
 @import url('./blocks/pagination.css');
 @import url('./blocks/pagelist.css');
