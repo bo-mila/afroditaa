@@ -4,14 +4,8 @@
   margin: 0 auto;
 }
 .news h2 {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 49px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.78;
-  letter-spacing: 1.47px;
   text-transform: uppercase;
+  letter-spacing: 1.47px;
   margin-bottom: 70px;
   text-align: center;
 }

@@ -1,0 +1,12 @@
+.list-billet-ver {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list-billet-ver__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% /3 - 30px);
+}
