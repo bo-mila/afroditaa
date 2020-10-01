@@ -1,0 +1,27 @@
+.breadcrumbs {
+  font-style: italic;
+  font-family: 'Onep Sans', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: .8;
+  color: rgba(248, 149, 19, 0.8);
+}
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__item::before {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__item:first-child::before{
+  display: none;
+}
+.breadcrumbs__item--active {
+  color: rgba(34, 31, 31, 0.8);
+}
+.breadcrumbs__link {
+  display: inline-block;
+  vertical-align: middle;
+}

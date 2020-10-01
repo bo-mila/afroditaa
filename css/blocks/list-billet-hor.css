@@ -1,21 +1,14 @@
-.news__all-top {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 42px;
-}
-.news-all {
+.list-billet-hor {
   display: flex;
   flex-direction: column;
-  max-width: 84%;
+  /* max-width: 84%; */
   vertical-align: top;
 }
-.news-all__item {
+.list-billet-hor__item {
   width: 100%;
   margin-bottom: 26px;
 }
-
-.news-all__item:before {
+.list-billet-hor__item:before {
   content: "";
   display: block;
   width: 88%;
@@ -23,6 +16,6 @@
   background-color: #f5f5f5;
   margin-bottom: 29px;
 }
-.news-all__item:first-child::before {
+.list-billet-hor__item:first-child::before {
   display: none;
 }

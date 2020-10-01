@@ -1,6 +1,8 @@
 .main-content {
+  padding-top: 79px;
   margin-bottom: 67px;
 }
-.main-content__container {
+
+/* .main-content__container {
   margin: 0 auto;
-}
+} */

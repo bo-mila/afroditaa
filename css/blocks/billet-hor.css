@@ -1,19 +1,15 @@
-/* .new-all {
-  display: flex;
-  flex-direction: row;
-} */
-.new-all__img {
+.billet-hor__img {
   margin-right: 20px;
   display: inline-block;
 }
-.new-all__pic {
+.billet-hor__pic {
   width: 160px;
   height: 160px;
   border-radius: 50%;
   overflow: hidden;
   vertical-align: top;
 }
-.new-all__desc {
+.billet-hor__desc {
   display: inline-block;
   width: 70%;
   vertical-align: top;
@@ -23,18 +19,18 @@
   line-height: 1.67;
   letter-spacing: normal
 }
-.new-all__data {
+.billet-hor__data {
   font-size: 14px;
   font-weight: 300;
   opacity: .8;
   
 }
-.new-all__title {
+.billet-hor__title {
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 4px 0;
 }
-.new-all__text {
+.billet-hor__text {
   font-size: 18px;
   font-weight: 400;
   margin: 0;

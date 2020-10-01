@@ -1,0 +1,13 @@
+.reviews {
+  padding-top: 28px;
+  color: #221f1f;
+  margin-bottom: 60px;
+}
+.reviews__title {
+  text-transform: uppercase;
+  font-family: 'Onep Sans', Arial, Helvetica, sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+  letter-spacing: 2.45px;
+  margin-bottom: 50px;
+}

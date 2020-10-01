@@ -2,7 +2,6 @@
   display: block;
   padding-top: 30px;
   margin: 0 auto;
-  
 }
 .news h2 {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -16,7 +15,12 @@
   margin-bottom: 70px;
   text-align: center;
 }
-
+.news__all-top {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 42px;
+}
 .news__news-top {
   min-width: 15%;
   vertical-align: top;
