@@ -1,6 +1,6 @@
 .billet-ver__img {
-  width: 250px;
-  height: 153px;
+  max-width: 250px;
+  max-height: 153px;
   overflow: hidden;
   vertical-align: top;
   position: relative;

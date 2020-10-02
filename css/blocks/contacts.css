@@ -1,5 +1,6 @@
 .contacts {
   text-align: right;
+  flex-shrink: 0;
 }
 .contacts__phone {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;

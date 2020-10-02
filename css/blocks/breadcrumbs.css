@@ -5,6 +5,13 @@
   font-weight: 300;
   opacity: .8;
   color: rgba(248, 149, 19, 0.8);
+
+}
+.breadcrumbs__container-reviews {
+  width: 968px;
+}
+.breadcrumbs__container-servises {
+  width: 878px;
 }
 .breadcrumbs__item {
   display: inline-block;
@@ -18,10 +25,12 @@
 .breadcrumbs__item:first-child::before{
   display: none;
 }
-.breadcrumbs__item--active {
+.breadcrumbs__item--active .breadcrumbs__link{
   color: rgba(34, 31, 31, 0.8);
+  text-decoration: none;
 }
 .breadcrumbs__link {
   display: inline-block;
   vertical-align: middle;
+  text-decoration: underline;
 }
