@@ -22,7 +22,7 @@
 } */
 .pagelist_item--active .pagelist__link {
   background-color: #27273e;
-  color: #ffffff;
+  color: #f89513;
 }
 .pagelist__link {
   display: inline-block;

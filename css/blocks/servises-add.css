@@ -4,15 +4,14 @@
   font-family: 'Onep Sans', Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
-  padding: 30px 0 34px 0;
+  padding: 22px 0 30px 0;
   line-height: 1.67;
   background-image: url('../../img/pattern.png');
-  margin-bottom: 61px;
 }
 .servises-add span {
   font-weight: bold;
   color: #f89513;
 }
 .servises-add__container {
-  width: 636px;
+  width: 60%;
 }

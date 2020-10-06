@@ -3,7 +3,7 @@
   padding: 50px 10%;
 }
 .form__title {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 .form__elem {
   display: flex;
@@ -14,7 +14,7 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 .form__block {
   /* width: 48%; */
@@ -29,7 +29,7 @@
   width: 100%;
 } */
 .form__block-title, .form__question-title {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 14px;
   font-weight: 300;
 }

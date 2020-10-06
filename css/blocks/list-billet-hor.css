@@ -14,7 +14,7 @@
   width: 88%;
   height: 1px;
   background-color: #f5f5f5;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
 }
 .list-billet-hor__item:first-child::before {
   display: none;

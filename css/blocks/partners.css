@@ -1,20 +1,20 @@
 .partners__title {
   text-transform: uppercase;
   letter-spacing: 1.47px;
-  margin-bottom: 87px;
+  margin-bottom: 85px;
 }
 .partners__list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
   justify-content: space-between;
-  margin: 0 auto;
 }
 .partners__item {
   width: calc(100% /3 - 30px);
-  text-align: center;
-  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 45px;
 }
 .partners__img {
   filter: grayscale(100%);
