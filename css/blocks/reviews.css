@@ -1,0 +1,12 @@
+.reviews {
+  padding: 26px 0 62px 0;
+  color: #221f1f;
+}
+.reviews__title {
+  text-transform: uppercase;
+  letter-spacing: 2.45px;
+  margin-bottom: 48px;
+}
+.reviews__list {
+  margin-bottom: 22px;
+}

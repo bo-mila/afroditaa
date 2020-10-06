@@ -1,0 +1,26 @@
+.footer {
+  margin: 0;
+  margin-bottom: 0;
+  background-color: #131415;
+  color: #fff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+.footer__withlove {
+  width: 23%;
+}
+.footer__loftschool {
+  text-decoration: underline;
+}
+.footer__logo {
+  width: 22%;
+}
+.footer__network {
+  text-align: right;
+}

@@ -1,0 +1,33 @@
+.pagelist {
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+  color: #221f1f;
+}
+.pagelist__item {
+  display: inline-block;
+  font-weight: 600;
+}
+/* .pagelist__item:last-child {
+  margin-right: 0;
+} */
+/* .pagelist__item:last-child {
+  margin-right: 0;
+} */
+/* .pagepoint {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  
+} */
+.pagelist_item--active .pagelist__link {
+  background-color: #27273e;
+  color: #f89513;
+}
+.pagelist__link {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
+  vertical-align: middle;
+  padding: 4px 9px;
+}

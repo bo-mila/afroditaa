@@ -1,0 +1,56 @@
+.billet-ver__img {
+  max-width: 250px;
+  max-height: 153px;
+  overflow: hidden;
+  vertical-align: top;
+  position: relative;
+  border-radius: 3px;
+}
+.billet-ver__img::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .4s;
+}
+.billet-ver__img:hover::after {
+  background-color:  rgba(0, 0, 0, 0);
+}
+.billet-ver__img-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 10;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.58;
+  letter-spacing: 0.72px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.billet-ver__desc {
+  color: #221f1f;
+  padding-top: 25px;
+  padding-bottom: 42px;
+}
+.billet-ver__title {
+  margin-bottom: 6px;
+}
+.billet-ver__title span {
+  font-size: 18px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+.billet-ver__text p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}

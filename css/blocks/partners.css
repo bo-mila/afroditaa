@@ -1,0 +1,25 @@
+.partners__title {
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+  margin-bottom: 85px;
+}
+.partners__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.partners__item {
+  width: calc(100% /3 - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 45px;
+}
+.partners__img {
+  filter: grayscale(100%);
+  transition: .4s;
+}
+.partners__img:hover {
+  filter: grayscale(0);
+}

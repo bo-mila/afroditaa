@@ -1,0 +1,21 @@
+.list-billet-hor {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 84%; */
+  vertical-align: top;
+}
+.list-billet-hor__item {
+  width: 100%;
+  margin-bottom: 28px;
+}
+.list-billet-hor__item:before {
+  content: "";
+  display: block;
+  width: 88%;
+  height: 1px;
+  background-color: #f5f5f5;
+  margin-bottom: 26px;
+}
+.list-billet-hor__item:first-child::before {
+  display: none;
+}

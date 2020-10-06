@@ -1,0 +1,9 @@
+.servises {
+  padding-top: 24px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.servises__title {
+  text-transform: uppercase;  
+  margin-bottom: 51px;
+  letter-spacing: 1.47px;
+}

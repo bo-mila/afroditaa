@@ -1,0 +1,28 @@
+.news-top h4 {
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+.news-top span {
+  display: block;
+  font-weight: normal;
+  opacity: .7;
+  margin-bottom: 22px;
+}
+.news-top__list {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.news-top__item {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.news-top__item:last-child {
+  margin-bottom: 0;
+}
+.news-top__pic {
+  display: block;
+  width: 160px;
+  opacity: .8;
+}

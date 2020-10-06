@@ -1,0 +1,8 @@
+.feadback {
+  color: #221f1f;
+  font-family: 'Onep Sans', Arial, Helvetica, sans-serif;
+  padding: 60px 0 44px 0;
+}
+.feadback__container {
+  width: 700px;
+}
