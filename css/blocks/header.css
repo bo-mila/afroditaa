@@ -8,9 +8,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 22px;
-  padding-bottom: 17px;
+  padding: 17px;
 }
 .header__nav {
   color: #fff;
+  width: 31%;
 }

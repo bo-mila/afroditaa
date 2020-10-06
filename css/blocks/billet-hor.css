@@ -1,5 +1,5 @@
 .billet-hor__img {
-  margin-right: 20px;
+  margin-right: 14px;
   display: inline-block;
   width: 18%;
 }
@@ -12,27 +12,27 @@
 }
 .billet-hor__desc {
   display: inline-block;
-  width: 70%;
+  width: 77%;
   vertical-align: top;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.67;
   letter-spacing: normal
 }
 .billet-hor__data {
   font-size: 14px;
   font-weight: 300;
   opacity: .8;
-  
+  margin-bottom: 9px;
 }
 .billet-hor__title {
   font-size: 18px;
   font-weight: 600;
-  margin: 0 0 4px 0;
+  margin: 0 0 9px 0;
 }
 .billet-hor__text {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
+  line-height: 1.67;
 }
