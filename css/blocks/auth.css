@@ -27,15 +27,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .welcome__logo {
   display: block;
-  width: 160px;
-  height: 191px;
+  max-width: 100%;
   margin-bottom: 40px;
 }
-.welcome__btn {
+.welcome__img{
   display: block;
+  width: 160px;
+}
+.welcome__btn {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -46,6 +49,7 @@
   background-color: #f89513;
   border-radius: 4px;
   transition: .6s;
+  text-align: center;
 }
 .welcome__btn:hover {
   background-color: #131415;;
