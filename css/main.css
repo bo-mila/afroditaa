@@ -4,9 +4,7 @@
 @import url('./blocks/header.css');
 @import url('./blocks/content.css');
 @import url('./blocks/sidebar.css');
-
-
-
+@import url('./blocks/dropdown.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/title.css');
@@ -14,7 +12,6 @@
 @import url('./blocks/contacts.css');
 @import url('./blocks/main-content.css');
 @import url('./blocks/slogan.css');
-@import url('./blocks/features.css');
 @import url('./blocks/feature.css');
 @import url('./blocks/news.css');
 @import url('./blocks/list-billet-hor.css');
@@ -28,8 +25,6 @@
 @import url('./blocks/withlove.css');
 @import url('./blocks/network.css');
 @import url('./blocks/reviews.css');
-@import url('./blocks/content-reviews.css');
-@import url('./blocks/content-servises.css');
 @import url('./blocks/main-content-reviews.css');
 @import url('./blocks/main-content-servises.css');
 @import url('./blocks/servises-add.css');
