@@ -8,6 +8,10 @@
   display: inline-block;
   font-weight: 600;
 }
+.pagelist__item:hover {
+  color: #f89513;
+
+}
 /* .pagelist__item:last-child {
   margin-right: 0;
 } */

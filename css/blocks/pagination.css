@@ -4,6 +4,8 @@
   font-size: 14px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #656464;
+  padding: 64px 0 50px;
+  width: 72%;
 }
 .pagination__display {
   display: inline-block;

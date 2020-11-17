@@ -2,17 +2,26 @@
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  color: currentColor;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.nav--reviews {
+  margin-bottom: 80px;
+}
+.nav--servises {
+  margin-bottom: 63px;
 }
 .nav__list {
   display: flex;
+  flex-direction: column;
+  padding-left: 77px;
 }
 .nav__item {
   display: flex;
-  margin-right: 23px;
+  margin-bottom: 25px;
   vertical-align: middle;
   transition: .6s;
 }
@@ -20,7 +29,7 @@
   color: #f89513;
 }
 .nav__item:last-child {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 .nav__item--active {
   color: #f89513;
@@ -36,7 +45,7 @@
 }
 .nav__link {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .nav__link:before {
   content: "";

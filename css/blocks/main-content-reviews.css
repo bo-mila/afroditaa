@@ -1,3 +1,4 @@
-.main-content-reviews__container {
-  width: 80%;
+.main-content-reviews {
+  flex: 1;
+  padding-top: 46px;
 }

@@ -1,16 +1,10 @@
 .header {
   background: #131415;
-  
 }
-
 .header__container {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 17px;
-}
-.header__nav {
-  color: #fff;
-  width: 31%;
+  padding: 17px 0;
 }

@@ -1,30 +1,11 @@
 .news {
   display: block;
-  padding-top: 66px;
+  padding-top: 20px;
   margin: 0 auto;
 }
 .news h2 {
   text-transform: uppercase;
   letter-spacing: 1.47px;
-  margin-bottom: 76px;
-  text-align: center;
-}
-.news__all-top {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 39px;
-}
-.news__news-top {
-  min-width: 15%;
-  vertical-align: top;
+  margin-bottom: 36px;
   text-align: left;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: 2.4px;
-  color: #221f1f;
-  font-size: 12px;
-  padding-top: 4px;
 }
