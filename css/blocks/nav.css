@@ -91,6 +91,8 @@
 }
 .nav__icon--main::after {
   background-position: -10px -48px;
+  width: 19px;
+  height: 14px;
 }
 .nav__icon--feed::after {
   background-position: -10px -10px;

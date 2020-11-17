@@ -3,6 +3,7 @@
   background-color: #1c1f1d;
   border-radius: 5px;
   transition: .8s;
+  cursor: pointer;
 }
 .buttons__res:hover, .buttons__sub:hover {
   background-color: #f89513;
