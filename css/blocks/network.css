@@ -18,7 +18,7 @@
   display: inline-block;
   margin-right: 5px;
   position: relative;
-  /* background-color: #d0d0d0; */
+  cursor: pointer;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -27,9 +27,36 @@
 .network__item:last-child {
   margin-right: 0;
 }
-.network__pic {
+.network__item::after {
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  background-image: url(../../img/sprite-network.png);
+}
+.network__item--vk::after {
+  background-position: -41px -39px;
+  width: 12px;
+  height: 7px;
+}
+.network__item--fb::after {
+  background-position: -77px -10px;
+  width: 6px;
+  height: 13px;
+}
+.network__item--google::after {
+  background-position: -10px -10px;
+  width: 15px;
+  height: 9px;
+}
+.network__item--tw::after {
+  background-position: -10px -39px;
+  width: 11px;
+  height: 9px;
+}
+.network__item--mail::after {
+  background-position: -45px -10px;
+  width: 12px;
+  height: 9px;
 }
