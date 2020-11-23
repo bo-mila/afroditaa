@@ -4,6 +4,8 @@
   font-size: 14px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #656464;
+  padding: 61px 0 50px;
+  width: 89%;
 }
 .pagination__display {
   display: inline-block;
@@ -24,4 +26,8 @@
 .pagination__next {
   display: inline-block;
   font-weight: 600;
+}
+.pagination--reviews-servises {
+  padding-top: 47px;
+  width: 69%;
 }

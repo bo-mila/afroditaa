@@ -1,25 +1,38 @@
 .contacts {
   text-align: right;
   flex-shrink: 0;
+  font-stretch: normal;
+  font-style: normal;
 }
 .contacts__phone {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 21px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   letter-spacing: normal;
   color: #fff;
   text-align: right;
+  display: block;
 }
 .contacts__hours {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   letter-spacing: normal;
   color: #f89513;
   opacity: .7;
-  text-decoration: underline;
+  color: rgba(248, 149, 19, 0.7);
+}
+.contacts__days {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f89513;
+  line-height: 1.29;
+}
+.contacts__rest {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #221f1f;
+  line-height: 1.29;
 }

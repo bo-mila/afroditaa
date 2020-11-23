@@ -1,18 +1,21 @@
 .option {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 18px;
+}
+.radio {
+  display: none;
 }
 .option:last-child {
   margin-right: 0;
 }
-.option--active {
+.radio:checked ~ .option__title {
   color: #f89513;
 }
-.option--active .option__radio {
+.radio:checked ~ .option__radio {
   border-color: #f89513;
 }
-.option--active .option__radio::after {
+.radio:checked ~ .option__radio::after {
   background-color: #f89513;
 }
 .option__radio {

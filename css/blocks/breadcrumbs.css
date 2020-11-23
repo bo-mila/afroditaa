@@ -5,13 +5,7 @@
   font-weight: 300;
   opacity: .8;
   color: rgba(248, 149, 19, 0.8);
-
-}
-.breadcrumbs__container-reviews {
-  width: 80%;
-}
-.breadcrumbs__container-servises {
-  width: 878px;
+  /* margin-bottom: 28px; */
 }
 .breadcrumbs__item {
   display: inline-block;
