@@ -7,12 +7,12 @@
   text-align: center;
   line-height: 1.67;
   background-image: url('../../img/pattern.png');
-  margin-bottom: 34px;
+  margin-bottom: 29px;
 }
 .servises-add span {
   font-weight: bold;
   color: #f89513;
 }
 .servises-add__container {
-  padding: 30px 26px;
+  padding: 23px 26px 25px;
 }

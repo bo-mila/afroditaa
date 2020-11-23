@@ -6,10 +6,12 @@
 @import url('./blocks/sidebar.css');
 @import url('./blocks/dropdown.css');
 @import url('./blocks/breadcrumbs.css');
+@import url('./blocks/description.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/title.css');
 @import url('./blocks/nav.css');
 @import url('./blocks/contacts.css');
+@import url('./blocks/page-content.css');
 @import url('./blocks/main-content.css');
 @import url('./blocks/slogan.css');
 @import url('./blocks/feature.css');
@@ -25,8 +27,6 @@
 @import url('./blocks/withlove.css');
 @import url('./blocks/network.css');
 @import url('./blocks/reviews.css');
-@import url('./blocks/main-content-reviews.css');
-@import url('./blocks/main-content-servises.css');
 @import url('./blocks/servises-add.css');
 @import url('./blocks/feadback.css');
 @import url('./blocks/form.css');

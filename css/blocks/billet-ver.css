@@ -1,5 +1,5 @@
 .billet-ver__img {
-  max-width: 250px;
+  max-width: 251px;
   max-height: 153px;
   overflow: hidden;
   vertical-align: top;
@@ -39,7 +39,7 @@
 .billet-ver__desc {
   color: #221f1f;
   padding-top: 25px;
-  padding-bottom: 42px;
+  padding-bottom: 46px;
 }
 .billet-ver__title {
   margin-bottom: 6px;
@@ -53,4 +53,5 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
+  width: 99%;
 }

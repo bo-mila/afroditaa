@@ -7,7 +7,7 @@
 }
 .dropdown__link {
   display: inline-block;
-  
+  text-decoration: underline;
 }
 .dropdown:hover .dropdown__menu {
 right: 0;;

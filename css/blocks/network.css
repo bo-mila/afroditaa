@@ -1,6 +1,6 @@
 .network h5 {
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
@@ -16,7 +16,7 @@
 }
 .network__item {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 11px;
   position: relative;
   cursor: pointer;
   border-radius: 50%;

@@ -6,7 +6,10 @@
 }
 .list-billet-hor__item {
   width: 100%;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
+}
+.list-billet-hor--news .list-billet-hor__item {
+  margin-bottom: 16px;
 }
 .list-billet-hor__item:last-child {
   margin-bottom: 0;
@@ -17,7 +20,7 @@
   width: 88%;
   height: 1px;
   background-color: #f5f5f5;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 .list-billet-hor__item:first-child::before {
   display: none;

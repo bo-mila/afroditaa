@@ -8,11 +8,14 @@
   width: 100%;
   margin-bottom: 22px;
 }
+.nav--main {
+  margin-bottom: 19px;
+}
 .nav--reviews {
   margin-bottom: 80px;
 }
 .nav--servises {
-  margin-bottom: 63px;
+  margin-bottom: 67px;
 }
 .nav__list {
   display: flex;
@@ -21,8 +24,7 @@
 }
 .nav__item {
   display: flex;
-  margin-bottom: 25px;
-  /* vertical-align: middle; */
+  margin-bottom: 23px;
   transition: .6s;
   cursor: pointer;
   align-items: center;
